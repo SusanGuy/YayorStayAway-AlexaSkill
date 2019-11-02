@@ -37,7 +37,7 @@ const helperMethod = async id => {
 };
 
 const findProfessorByName = async(firstName, lastName, id) => {
-    professor = await helperMethod(id);
+    const professor = await helperMethod(id);
     const data = await professor.map(item => {
         return item.find(pro => {
             return pro.tFname === firstName && pro.tLname === lastName;

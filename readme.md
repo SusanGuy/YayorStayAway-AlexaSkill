@@ -1,2 +1,2 @@
-##Alexa, Rate my professor Skill
+###Alexa, Rate my professor Skill
 
